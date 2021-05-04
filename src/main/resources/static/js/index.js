@@ -1,4 +1,4 @@
-const myUrl = 'http://54.88.29.127:8082/news';
+const myUrl = 'http://34.204.169.197:8082/news';
 const requestOptions = {
     'content-type': 'application/json',
     method: 'GET',
@@ -12,30 +12,6 @@ fetch(myUrl, requestOptions)
         console.log(data)
     })
 
-
-
-// data = [{
-//     id : 26952557,
-//     ranking : 1,
-//     link : "https://www.matuzo.at/blog/html-boilerplate/",
-//     title : "My Current HTML Boilerplate",
-//     siteName : "matuzo.at",
-//     points : 481,
-//     postedBy : "adrian_mrd",
-//     postTime : "6 hours ago",
-//     amountOfComments : 146
-//     },
-//     {
-//         id : 26952558,
-//         ranking : 2,
-//         link: "https://mars26.com/",
-//         title: "Show HN: Open-source high-res Mars map, in natural colors",
-//         siteName: "matuzo.at",
-//         points: 900,
-//         postedBy: "anders_dk",
-//         postTime: "6 hours ago",
-//         amountOfComments: 146
-// }]
 
 
 function fillPostHeader(item,index) {
