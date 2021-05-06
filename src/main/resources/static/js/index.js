@@ -1,4 +1,4 @@
-const myUrl = 'http://3.238.23.121:8082/news';
+const myUrl = 'http://3.238.198.208:8082/news';
 const requestOptions = {
     'content-type': 'application/json',
     method: 'GET',
